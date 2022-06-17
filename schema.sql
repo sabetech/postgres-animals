@@ -4,7 +4,8 @@ CREATE TABLE animals(
     date_of_birth date,
     escape_attempts INT,
     neutered BOOLEAN,
-    weight_kg NUMERIC(5,2)
+    weight_kg NUMERIC(5,2),
+    species VARCHAR(250)
 );
 
 DROP TABLE animals;
