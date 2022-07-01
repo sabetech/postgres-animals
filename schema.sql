@@ -78,5 +78,16 @@ CREATE TABLE visits (
 
 
 
+-- create an index on animal_id on the visits table
+CREATE INDEX animal_id_asc_index ON visits(animal_id ASC);
+
+-- Create an index on vets_id to increase speed
+CREATE INDEX vet_id_index_asc ON visits(vet_id ASC);
+
+-- create an index on the email field text field
+CREATE INDEX email_index_asc ON owners(email ASC);
+
+
+
 
 
